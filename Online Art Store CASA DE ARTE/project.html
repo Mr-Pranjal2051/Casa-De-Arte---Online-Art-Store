@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Art Gallery Store</title>
+	<link rel="stylesheet" type="text/css" href="css/project2.css">
+    <style>
+                .container{
+                                width: 1366px;
+                                height: 695.5px;
+                                background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.8)),url("images/53958.jpg");
+                                background-position: absolute;
+                                position: absolute;
+
+                            }
+    </style>
+</head>
+<body>
+	<div class="container">
+			<div class="menu">
+			<img src="images/casa2.png" class="logo">
+			<label class="label"><b>Search</b></label>
+			<input type="text" name="artist" placeholder="Artist name" class="search">
+			<ul>
+				<li class="active"><a href="home.html"><b>Home</b></a></li>
+				<li class="active"><a href="arts.html"><b>Arts</b></a></li>
+				<li class="active"><a href="review.html"><b>Review</b></a></li>
+				<li class="active"><a href="contact.html"><b>Contact</b></a></li>
+				<li class="active"><a href="aboutus.html"><b>About us</b></a></li>
+				<li><a href="project.html" class="login"><b>Login</b></a></li>
+			</ul>
+	</div><!--  menu ends -->
+		<div class="form-box">
+			<div class="button-box">
+				<div id="btn"></div>
+				<button type="button" class="toggle-btn" onclick="login()"><b>Login</b></button>
+				<button type="button" class="toggle-btn" onclick="register()"><b>Register</b></button>
+			</div><!-- button-box ends -->
+			<div class="socialsites">
+			<img src="images/fb.png" id="maths">
+			<img src="images/tw.png" id="maths">
+			<img src="images/gp.png" id="maths">
+		</div><!-- socialsites ends -->
+		<form id="login" class="forms" action="home.html" target="_blank">
+				<input type="text" class="inputs" placeholder="User-id">
+				<input type="text" class="inputs" placeholder="Enter Password">
+				<input type="checkbox" class="check-box" placeholder="user-id"><span><b>Remember Password</b></span>
+				<button type="submit" class="button"><a href="home.html"><b>Login</b></a></button>
+		</form>
+		<form id="register" class="forms">
+				<input type="text" class="inputs" placeholder="User-id">
+				<input type="email" class="inputs" placeholder="Email id">
+				<input type="text" class="inputs" placeholder="Enter Password">
+				<input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
+				<button type="submit" class="button">Register</button>
+		</form>
+		
+
+		</div><!-- form-box ends -->
+	<script type="text/javascript">
+		var x = document.getElementById("login");
+		var y = document.getElementById("register");
+		var z = document.getElementById("btn");
+		function register(){
+			x.style.left = "-400px";
+			y.style.left = "50px";
+			z.style.left = "110px";		
+		}
+
+		function login(){
+			x.style.left = "50px";
+			y.style.left = "450px";
+			z.style.left = "0";		
+		}
+
+	</script>
+	<div class="we">
+		<h3>Terms of use </h3>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <h3>Privacy Policies </h3>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <h3>Cookies Policies</h3>
+	</div><!-- we ends -->
+	<div id="dif">
+		<h3>Created By Group 16</h3>
+	</div><!-- dif ends -->
+    </div>      <!-- container ends -->
+
+</body>
+</html>

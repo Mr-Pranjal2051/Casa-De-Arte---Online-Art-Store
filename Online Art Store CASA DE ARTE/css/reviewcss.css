@@ -1,0 +1,222 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.menu ul{
+	display: inline-flex;
+	margin: 45px;
+	margin-left:760px;
+}
+.menu ul li{
+	list-style: none;
+	margin: 0 20px;
+	color:white;
+	cursor: pointer;
+}
+.logo{margin-top:20px;
+	margin-left:30px;
+	width: 122px; 
+	opacity: 0.9;
+	position: absolute;
+}
+.active{
+	color:white;
+	opacity: 0.9;
+}
+.login{
+	text-decoration: none;
+	color: black;
+	opacity: 0.9;
+	background:linear-gradient(to right,violet,purple);
+	border-radius:20px;
+	padding: 10px;
+}
+.search{
+	width: 17%;
+	height: 32px;
+	margin-left: 185px;
+	margin-top:35px;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 1px solid white;
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+	outline: none;
+	background:black;
+	position: absolute;
+	border-radius: 20px;
+	padding-left: 20px;
+	opacity: 0.3;
+	color: white;
+}
+.label{
+	padding-top: 8px;
+	padding-left: 17px;
+	width:70px;
+	height: 24px;
+	margin-top: 36px;
+	margin-left: 347.5px;
+	position: absolute;
+	background:white;
+	border-radius:20px; 
+	color:black;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white
+}
+.menu ul li a:hover{
+	opacity: 0.9;
+	color: black;
+}
+.sort{
+	margin-left: 470px;
+	margin-top: -44.5px;
+}
+.custom{
+	color: white;
+	opacity: 0.8;
+	margin-left: 67px;
+	margin-top: 45px;
+}
+.den{
+	float: left
+}
+.review1{ margin-left: 70px;
+	margin-top: 35px;
+	padding: 20px;
+	background: rgba(255,255,255,0.4);
+	height: 120px;
+	width: 550px;
+	font-size: 15px;	
+	font-family: cursive;
+	border-left: 4px solid black;
+}
+.review2{
+	margin-left: 70px;
+	margin-top: 28px;
+	padding: 20px;
+	background: rgba(255,255,255,0.4);
+	height: 120px;
+	width: 550px;	
+	font-size: 15px;	
+	font-family: cursive;
+	border-left: 4px solid black;
+}
+.review3{
+	margin-left: 70px;
+	margin-top: 28px;
+	padding: 20px;
+	background: rgba(255,255,255,0.4);
+	height: 120px;
+	width: 550px;	
+	font-size: 15px;	
+	font-family: cursive;
+	border-left: 4px solid black;
+}
+.spanw h1{
+	color: black;
+	font-family: monospace;
+	font-size: 25px;
+	margin-left: 400px;
+}
+.we h3{
+	font-family: ink free;
+	display: inline-flex;
+	color: white;
+	margin-left: 30px;
+	margin-top: 22px;
+	opacity: 0.6;
+}
+.we h3:hover{
+	color: blue;
+	opacity:0.7;
+}
+#dif h3{
+	color: white;
+	opacity: 0.6;
+	font-family: ink free;
+	margin-top: -24px;
+	margin-left: 1100px;
+}
+.den2{
+	float:right;
+	margin-top: -705px;
+	margin-right: -30px;
+}
+.fog{
+	float: right;
+	margin-top: -735px;
+	margin-right: 190px;
+	color: white;
+	opacity: 0.6;
+}
+.ann1{
+	padding:20px;
+	background: rgba(255,255,255,0.5);
+	width: 400px;
+	height: 90px; 
+	border-left: 4px solid black;
+	font-family: cursive;
+	font-size: 15px;
+
+}
+.ann2{
+	padding:20px;
+	background: rgba(255,255,255,0.5);
+	width: 400px;
+	height: 90px; 
+	border-left: 4px solid black;
+	font-family: cursive;
+	font-size: 15px;
+
+}
+.ann3{font-size: 15px;
+	padding:20px;
+	background: rgba(255,255,255,0.5);
+	width: 400px;
+	height: 90px; 
+	border-left: 4px solid black;
+	font-family: cursive;
+
+}
+.feed{
+	float: right;
+	margin-top: -170px;
+	margin-right: 290px;
+}
+.feed:hover{
+    opacity:0.6;
+}
+.us{border:1px solid white;
+	background:rgba(0,0,0,0.9);
+	opacity: 0.5;
+	height: 40px;
+	color: white;
+	width: 140%; 
+}
+.feed2{
+	float: right;
+	margin-top: -170px;
+	margin-right: 85px;
+}
+.feed2:hover{
+    opacity:0.6;
+}
+.us2{border:1px solid white;
+	background:rgba(0,0,0,0.9);
+	opacity: 0.5;
+	height: 40px;
+	color: white;
+	width: 300%; 
+}
+.help{font-size: 20px;
+    color:lightblue;
+    margin-top:-45px;
+    margin-left: 600px;
+}
+.more{
+    color:white;
+}

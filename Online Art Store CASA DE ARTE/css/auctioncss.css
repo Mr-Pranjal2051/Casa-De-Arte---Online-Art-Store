@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+    height: 940px;
+}
+.menu ul{
+	display: inline-flex;
+	margin: 45px;
+	margin-left:760px;
+}
+.menu ul li{
+	list-style: none;
+	margin: 0 20px;
+	color:white;
+	cursor: pointer;
+}
+.logo{margin-top:20px;
+	margin-left:30px;
+	width: 122px; 
+	opacity: 0.9;
+	position: absolute;
+}
+.active{
+	color:white;
+	opacity: 0.9;
+}
+.login{
+	text-decoration: none;
+	color: black;
+	opacity: 0.9;
+	background:linear-gradient(to right,violet,purple);
+	border-radius:20px;
+	padding: 10px;
+}
+.search{
+	width: 17%;
+	height: 32px;
+	margin-left: 185px;
+	margin-top:35px;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 1px solid white;
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+	outline: none;
+	background:black;
+	position: absolute;
+	border-radius: 20px;
+	padding-left: 20px;
+	opacity: 0.3;
+	color: white;
+}
+.label{
+	padding-top: 8px;
+	padding-left: 17px;
+	width:70px;
+	height: 24px;
+	margin-top: 36px;
+	margin-left: 348px;
+	position: absolute;
+	background:white;
+	border-radius:20px; 
+	color:black;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white
+}
+.menu ul li a:hover{
+	opacity: 0.9;
+	color: black;
+}
+.auc{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 560px;
+}
+.new{
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 130px;
+    border: 2px solid black;
+    padding:20px;
+    font-family: cursive;
+        
+}
+.new img{
+    height: 200px;
+}
+.new2{
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 540px;
+    border: 2px solid black;
+    padding:20px;
+    font-family: cursive;
+        
+}
+.new2 img{
+    height: 200px;
+    width: 265px;
+}
+.bid{
+    position: absolute;
+    margin-left: 180px;
+    margin-top: -170px;
+    background: linear-gradient(to left,orange,red);
+    height: 34px;
+    width: 80px;
+    border: 2px solid black;
+    font-family: cursive;
+}
+.bid:hover{
+    opacity: 0.5;
+    color:blue;
+}
+.new3{
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 950px;
+    border: 2px solid black;
+    padding:20px;
+    font-family: cursive;
+        
+}
+.new3 img{
+    height: 200px;
+    width: 265px;
+}
+#black{
+    margin-top: 780px;
+    margin-left: 540px;
+    font-family: cursive;
+    opacity: 0.8;
+    color: red;
+}
+.we h3{
+	font-family: ink free;
+	display: inline-flex;
+	color: black;
+	margin-left: 50px;
+	margin-top: 40px;
+	opacity: 0.8;
+}
+.we h3:hover{
+	color: red;
+	opacity:0.6;
+}
+#dif h3{
+	opacity: 0.5;
+	font-family: ink free;
+	margin-top: -20px;
+	margin-left: 1050px;
+}

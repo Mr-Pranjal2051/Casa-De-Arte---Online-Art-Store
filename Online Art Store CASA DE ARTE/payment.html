@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Art Gallery Store</title>
+	<link rel="stylesheet" type="text/css" href="css/paymentcss.css">
+    <style>
+                    .container{
+                                width: 100%;
+                                height:20%;
+                                background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url("images/stains_abstract_dark_122921_1920x1200.jpg");
+                                background-size: cover;
+                                background-attachment: fixed;
+                                background-position: absolute;
+                                position: absolute;
+                            }
+    </style>
+</head>
+<body>
+	<div class="container">
+			<div class="menu">
+			<img src="images/casa2.png" class="logo">
+			<label class="label"><b>Search</b></label>
+			<input type="text" name="artist" placeholder="Artist name" class="search">
+			<ul>
+				<li class="active"><a href="home.html"><b>Home</b></a></li>
+				<li class="active"><a href="arts.html"><b>Arts</b></a></li>
+				<li class="active"><a href="review.html"><b>Reviews</b></a></li>
+				<li class="active"><a href="contact.html"><b>Contact</b></a></li>
+				<li class="active"><a href="aboutus.html"><b>About us</b></a></li>
+				<li><a href="project.html" class="login"><b>Login</b></a></li>
+			</ul>
+        </div>                  <!-- menu ends -->
+    </div>                      <!-- container ends -->
+<div class="ut">
+    <div class="contain">
+        <h2 style="font-family: cursive">Billing Details</h2><br>
+        <label id="no">Name</label><br>
+        <input type="text" name="name" placeholder="Enter your name" class="jo">
+        <br><br>
+        <label  id="no">Email address</label><br>
+        <input type="email" name="email" placeholder="Enter a valid email address" class="jo">
+        <br><br>
+        <label  id="no">Country</label><br>
+        <input type="text" name="country" placeholder="Select your country" class="jo">
+        <br><br><br>
+        <label  id="no2">State</label>
+        <input type="text" name="count2" class="jo4">
+       &nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<label  id="no2">Postal Code</label>
+        <input type="text" name="count2" class="jo2">
+        <br>
+    </div>                      <!-- contain ends -->
+    <div class="contain2">
+    
+        <h2 style="font-family: cursive">Payment Methods</h2><br>
+        <div class="l">
+        <input type="radio" name="card" Value="Credit card">&nbsp&nbsp&nbsp Credit Card
+         </div>
+        <br>
+        <div class="l">
+        <input type="radio" name="card" Value="Credit card">&nbsp&nbsp&nbsp Debit Card
+         </div>                     <!-- l ends -->
+        <br>
+        <div class="card">
+        <label  id="no">Card Number</label><br>
+        <input type="number" name="ooo" class="jo">
+                <img src="images/card.jpg" id="c">
+        </div>                      <!-- card ends -->
+        <br><br>
+        <label  id="no2">Expiration date</label>
+        <input type="date" name="count3" class="jo3">&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<label  id="no2">Security Code</label>
+        <input type="number" name="count2" class="jo2">
+        <br>
+        <br>
+        <div class="mr">
+        <input type="radio" name="ooo2" value="jon" >&nbsp&nbsp&nbsp&nbsp&nbsp Paytm
+        <img src="images/Paytm.jpg" id="c1">
+        </div>                      <!-- mr ends -->
+        <br>
+        <div class="mr2">
+        <input type="radio" name="ooo2" value="jon" >&nbsp&nbsp&nbsp&nbsp&nbsp Google Pay
+        <img src="images/google.png" id="c2">
+        </div>                      <!-- mr2 ends -->
+        <br>
+        <h3 style="font-family:cursive; font-size: 16px">By clicking the button, you agree to the <u>terms and conditions</u></h3>
+        <br>
+        <div class="ho">
+            <button type="submit" class="button">Pay now</button>
+        </div>                      <!-- ho ends -->
+</div>                              <!--contain2 ends -->
+    </div>                           <!-- ut2 ends -->
+    </body>
+</html>

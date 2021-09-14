@@ -1,0 +1,234 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.menu ul{
+	display: inline-flex;
+	margin: 45px;
+	margin-left:760px;
+}
+.menu ul li{
+	list-style: none;
+	margin: 0 20px;
+	color:white;
+	cursor: pointer;
+}
+.logo{margin-top:20px;
+	margin-left:30px;
+	width: 122px; 
+	opacity: 0.9;
+	position: absolute;
+}
+.active{
+	color:white;
+	opacity: 0.9;
+}
+.login{
+	text-decoration: none;
+	color: black;
+	opacity: 0.9;
+	background:linear-gradient(to right,violet,purple);
+	border-radius:20px;
+	padding: 10px;
+}
+.search{
+	width: 17%;
+	height: 32px;
+	margin-left: 185px;
+	margin-top:35px;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 1px solid white;
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+	outline: none;
+	background:black;
+	position: absolute;
+	border-radius: 20px;
+	padding-left: 20px;
+	opacity: 0.3;
+	color: white;
+}
+.label{
+	padding-top: 8px;
+	padding-left: 17px;
+	width:70px;
+	height: 24px;
+	margin-top: 36px;
+	margin-left: 347.5px;
+	position: absolute;
+	background:white;
+	border-radius:20px; 
+	color:black;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white
+}
+.menu ul li a:hover{
+	opacity: 0.9;
+	color: black;
+}
+.go{
+    margin-top: 220px;
+    position: absolute;
+    margin-left:20px;
+    font-family: cursive;
+}
+#car{
+    position: absolute;
+    height: 60px;
+    width: 70px;
+    margin-left: 182px;
+    margin-top: -15px;
+    opacity: 0.7;
+}
+.do h2{
+    border-top: 5px solid black;
+    border-bottom:  5px solid black;
+    width: 700px;
+    height: 130px;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 30px;
+    opacity: 0.8;
+    
+}
+.continue{
+    height: 40px;
+    width: 350px;
+    margin-left: 150px;
+    background: linear-gradient(to right,lightpink,lightgreen);
+    font-family: cursive;
+    font-size: 20px;
+    position: absolute;
+}
+.continue2{
+    height: 40px;
+    width: 350px;
+    margin-left: 170px;
+    background: linear-gradient(to right,lightpink,lightgreen);
+    font-family: cursive;
+    font-size: 20px;
+    margin-top: 620px;
+    position: absolute;
+}
+.go button:hover{
+    color:blue;
+    opacity: 0.8;
+}
+.to{
+    position: absolute;
+    margin-top: 176px;
+    margin-left: 800px;
+    font-family: cursive
+}
+.new img{
+    height:110px;
+    width:175px;
+   
+}
+.new{
+    position: absolute;
+    margin-top: 240px;
+    margin-left:800px;
+    background: lightgrey;
+    padding: 20px;
+    border: 2px solid black;
+    font-family: cursive;
+    font-size: 15px
+}
+.new:hover{
+    opacity: 0.6;
+    color: blue;
+}
+.new2 img{
+    height:110px;
+    width:175px;
+   
+}
+.new2{
+    position: absolute;
+    margin-top: 240px;
+    margin-left:1070px;
+    background: lightgrey;
+    padding: 20px;
+    border: 2px solid black;
+    font-family: cursive;
+    font-size: 15px
+}
+.new2:hover{
+    opacity: 0.6;
+    color: blue;
+}
+.new3 img{
+    height:110px;
+    width:175px;
+   
+}
+.new3{
+    position: absolute;
+    margin-top: 460px;
+    margin-left:1070px;
+    background: lightgrey;
+    padding: 20px;
+    border: 2px solid black;
+    font-family: cursive;
+    font-size: 15px
+}
+.new3:hover{
+    opacity: 0.6;
+    color: blue;
+}
+.new4 img{
+    height:110px;
+    width:175px;
+   
+}
+.new4{
+    position: absolute;
+    margin-top: 460px;
+    margin-left:800px;
+    background: lightgrey;
+    padding: 20px;
+    border: 2px solid black;
+    font-family: cursive;
+    font-size: 15px
+}
+.new4:hover{
+    opacity: 0.6;
+    color: blue;
+}
+.more{
+    position: absolute;
+    margin-top: 650px;
+    margin-left: 950px;
+    height: 40px;
+    width: 200px;
+     font-family: cursive;
+    font-size: 20px;
+    background: linear-gradient(to right,lightpink,lightgreen);
+}
+body{
+height: 820px;
+}
+.we h3{
+	font-family: ink free;
+	display: inline-flex;
+	color: black;
+	margin-left: 10px;
+	margin-top: 730px;
+	opacity: 0.8;
+}
+.we h3:hover{
+	color: red;
+	opacity:0.6;
+}
+#dif h3{
+	opacity: 0.5;
+	font-family: ink free;
+	margin-top: -20px;
+	margin-left: 1050px;
+}

@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.menu ul{
+	display: inline-flex;
+	margin: 45px;
+	margin-left:760px;
+}
+.menu ul li{
+	list-style: none;
+	margin: 0 20px;
+	color:white;
+	cursor: pointer;
+}
+.logo{margin-top:20px;
+	margin-left:30px;
+	width: 122px; 
+	opacity: 0.9;
+	position: absolute;
+}
+.active{
+	color:white;
+	opacity: 0.9;
+}
+.login{
+	text-decoration: none;
+	color: black;
+	opacity: 0.9;
+	background:linear-gradient(to right,violet,purple);
+	border-radius:20px;
+	padding: 10px;
+}
+.search{
+	width: 17%;
+	height: 32px;
+	margin-left: 185px;
+	margin-top:35px;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 1px solid white;
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+	outline: none;
+	background:black;
+	position: absolute;
+	border-radius: 20px;
+	padding-left: 20px;
+	opacity: 0.3;
+	color: white;
+}
+.label{
+	padding-top: 8px;
+	padding-left: 17px;
+	width:70px;
+	height: 24px;
+	margin-top: 36px;
+	margin-left: 350.5px;
+	position: absolute;
+	background:white;
+	border-radius:20px; 
+	color:black;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white
+}
+.menu ul li a:hover{
+	opacity: 0.9;
+	color: black;
+}
+.contain{float: left;
+    margin-left: 100px;
+    margin-top: 200px;
+    color: black; 
+}
+.contain2{float: right;
+    margin-right: 100px;
+    margin-top: 150px;
+    color: black; 
+}
+#no{font-family: cursive;
+    font-size:16px
+}
+#no2{font-family: cursive;
+    font-size:16px
+}
+.jo{
+    height: 28px;
+    padding-left: 10px;
+    width: 472.5px;
+}
+.jo2{height: 28px;
+    width: 100px;
+}
+.jo3{height: 28px;
+    width: 100px;
+    color: transparent;
+
+}
+.jo4{height: 28px;
+    width: 150px;
+    
+}
+body{
+   background: #f3f3f3;
+}
+.l{
+    font-family: cursive;
+    border: 1px solid blue;
+    height: 28px;
+    padding-left: 10px;
+    width: 472.5px;
+}
+.m{
+    font-family: cursive;
+    border: 1px solid blue;
+    height: 28px;
+    padding-left: 10px;
+}
+#c{ 
+    width: 47.5px;
+    position: absolute;
+    margin-left: -48px;
+}
+.mr{
+    font-family: cursive;
+    border: 1px solid blue;
+    height: 28px;
+    padding-left: 10px;
+    width: 472.5px;
+}
+#c1{
+    width: 45.5px;
+    height: 27px;
+    position: absolute;
+    margin-left: 340px;
+}
+#c2{width: 45.5px;
+    height: 27px;
+    position: absolute;
+    margin-left: 300px;
+    
+}
+.mr2{
+    font-family: cursive;
+    border: 1px solid blue;
+    height: 28px;
+    padding-left: 10px;
+    width: 472.5px;
+}
+
+button{
+    width:480.5px;
+    text-align: center;
+    height: 40px;
+    background: green;
+    color: white;
+}

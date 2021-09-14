@@ -1,0 +1,169 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Ariel;
+}
+.menu ul{
+	display: inline-flex;
+	margin: 45px;
+	margin-left:670px;
+}
+.menu ul li{
+	list-style: none;
+	margin: 0 20px;
+	color:white;
+	cursor: pointer;
+}
+.logo{margin-top:20px;
+	margin-left:30px;
+	width: 122px; 
+	opacity: 0.9;
+	position: absolute;
+}
+.active{
+	color:white;
+	opacity: 0.9;
+}
+.login{
+	text-decoration: none;
+	color: black;
+	opacity: 0.9;
+	background:linear-gradient(to right,violet,purple);
+	border-radius:20px;
+	padding: 10px;
+}
+.search{
+	width: 17%;
+	height: 32px;
+	margin-left: 185px;
+	margin-top:35px;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 1px solid white;
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+	outline: none;
+	background:black;
+	position: absolute;
+	border-radius: 20px;
+	padding-left: 20px;
+	opacity: 0.3;
+	color: white;
+}
+.label{
+	padding-top: 8px;
+	padding-left: 17px;
+	width:70px;
+	height: 24px;
+	margin-top: 36px;
+	margin-left: 351.5px;
+	position: absolute;
+	background:white;
+	border-radius:20px; 
+	color:black;
+
+
+}
+.v{ margin-right: 35px;
+	margin-top: 2px;
+	float: right;
+}
+.u{width: 210px;
+	border-radius: 10px;
+	border: 2px solid black;
+	opacity: 0.8;
+}
+.u:hover{
+	opacity: 0.8;
+}
+.w{margin-right: 35px;
+	margin-top: 2px;
+	float:right;
+}
+.y{width: 210px;
+	height:255px;
+	border-radius: 10px;
+	border: 2px solid black;
+}
+.r{ 
+	margin-left: 920px;
+	margin-top: 300px;
+	float: bottom-right;
+}
+.s{width: 350px;
+	height:200px;
+	border-radius: 10px;
+	position: absolute;
+	border: 2px solid black;
+}
+.art h3{font-family: Ariel;
+	color: white;
+}
+.art{font-size: 29px;
+	margin-left:550px; 
+	margin-top:-200px;
+	opacity: 0.8;
+}
+#heart{ font-family: Ariel;
+	color: red;
+}
+#hear{ padding: 10px;
+	font-size: 25px;
+	color:white;
+	opacity: 0.56;
+	
+}
+.mute{
+	border: 0 solid black;
+	padding:40px 20px;
+	background:black; 
+	margin-left: 125px;
+	height:270px;
+	width: 270px;
+	text-align: center;
+	border-radius: 20px;
+	margin-top: -300px;
+	font-size: 25px;
+	opacity: 0.5;
+}
+.mute h1{color: white;
+	font-family: Ariel;
+}
+span{
+	font-family: Ariel;
+	color: red;
+	opacity: 0.98;
+}
+.mute h2{font-family: ariel;
+	color: white;
+	opacity:0.9;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white
+}
+.menu ul li a:hover{
+	opacity: 0.9;
+	color: black;
+}
+.we h3{
+	font-family: ink free;
+	display: inline-flex;
+	color: white;
+	margin-left: 30px;
+	margin-top: 100px;
+	opacity: 0.8;
+}
+.we h3:hover{
+	color: red;
+	opacity:0.6;
+}
+#dif h3{
+	color: white;
+	opacity: 0.2;
+	font-family: ink free;
+	margin-top: -2px;
+	margin-left: 1100px;
+}
